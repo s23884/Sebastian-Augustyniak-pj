@@ -9,9 +9,6 @@ package lab1.lab4;
  *
  * @author sebik
  */
-public interface Alarm {
+public class PoliceAlarm implements Alarm {
     
-    public Logger logger;
-    public void alarmTurnOn(PinEvent)
-    public void alarmTurnOff(PinEvent)
 }

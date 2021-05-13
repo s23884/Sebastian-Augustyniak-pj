@@ -9,6 +9,12 @@ package lab1.lab4;
  *
  * @author sebik
  */
-public class PinEvent extends Safe {
+public class PinEvent {
     
+    private Safe safe;
+    public int eventDate;
+    
+    public Safe getSafe(){
+         return null; 
+}
 }

@@ -11,4 +11,12 @@ package lab1.lab4;
  */
 public class Safe {
     
+    private String pin;
+    public Alarm alarms;
+    
+    public void addAlarm (Alarm alarms){}
+    public void removeAlarm (Alarm alarms){}
+    public void enterPin (String pin){}
+    private void wrongPin(){}
+    private void correctPin(){}
 }

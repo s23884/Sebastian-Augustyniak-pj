@@ -9,9 +9,6 @@ package lab1.lab4;
  *
  * @author sebik
  */
-public interface Alarm {
+public class FileLogger extends Logger {
     
-    public Logger logger;
-    public void alarmTurnOn(PinEvent)
-    public void alarmTurnOff(PinEvent)
 }
